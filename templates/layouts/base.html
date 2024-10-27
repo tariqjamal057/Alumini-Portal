@@ -8,8 +8,8 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="{% static 'image/logo.svg' %}" sizes="32x32" />
-        <link rel="icon" href="{% static 'image/logo.svg' %}" sizes="192x192" />
+        <link rel="icon" href="{% static 'assets/img/logo.svg' %}" sizes="32x32" />
+        <link rel="icon" href="{% static 'assets/img/logo.svg' %}" sizes="192x192" />
         <!-- Font awesome -->
         <link href="{% static 'assets/css/font-awesome.css' %}" rel="stylesheet" />
         <!-- Bootstrap -->
@@ -184,6 +184,11 @@
 
             .bg_white {
                 background-color: #fff !important;
+            }
+
+            .counter-bg-image {
+                background-image: url("{% static 'assets/img/about/dummy_college.jpg' %}") !important;
+                background-position: center;
             }
         </style>
         <title>
